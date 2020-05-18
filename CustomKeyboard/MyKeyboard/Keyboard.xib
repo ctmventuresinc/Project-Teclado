@@ -17,7 +17,7 @@
                     <rect key="frame" x="27" y="24" width="54" height="42"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                    <state key="normal" title="a">
+                    <state key="normal" title="n">
                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                 </button>
@@ -85,13 +85,25 @@
                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9in-dT-9Vc">
+                    <rect key="frame" x="281" y="14" width="74" height="91"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.52607073609999999" blue="0.65201407929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" image="lol.jpg"/>
+                </button>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p7T-AX-5bC">
+                    <rect key="frame" x="308" y="147" width="49" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </switch>
             </subviews>
-            <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="deleteKey" destination="ZN5-Qo-z17" id="q9m-0i-wq6"/>
                 <outlet property="globeKey" destination="nP1-Og-9aX" id="cYr-cP-YzQ"/>
+                <outlet property="outletSwitch" destination="p7T-AX-5bC" id="l6B-Cs-QAz"/>
+                <outlet property="qKey" destination="9in-dT-9Vc" id="Ouq-h4-iBQ"/>
                 <outlet property="returnKey" destination="MdF-Db-6RG" id="yKB-Zr-FA0"/>
                 <outlet property="spaceKey" destination="VDn-j9-TTN" id="2Mf-Oc-fwO"/>
                 <outletCollection property="keysArray" destination="lOl-2C-BWd" id="2NE-00-QH1"/>
@@ -103,4 +115,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="91.741071428571431"/>
         </view>
     </objects>
+    <resources>
+        <image name="lol.jpg" width="640" height="640"/>
+    </resources>
 </document>

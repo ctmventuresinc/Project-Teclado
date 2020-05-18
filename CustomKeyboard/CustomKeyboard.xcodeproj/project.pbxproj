@@ -18,6 +18,8 @@
 		D19BAAAB246FD13E00646009 /* MyKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D19BAAA3246FD13E00646009 /* MyKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D19BAAB22470DF0700646009 /* Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = D19BAAB12470DF0700646009 /* Keyboard.m */; };
 		D19BAAB42470DF3800646009 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19BAAB32470DF3800646009 /* Keyboard.xib */; };
+		D19BAAB62472BD9F00646009 /* lol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19BAAB52472BD9F00646009 /* lol.jpg */; };
+		D19BAAB72472BDA000646009 /* lol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19BAAB52472BD9F00646009 /* lol.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,7 @@
 		D19BAAB02470DF0700646009 /* Keyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Keyboard.h; sourceTree = "<group>"; };
 		D19BAAB12470DF0700646009 /* Keyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Keyboard.m; sourceTree = "<group>"; };
 		D19BAAB32470DF3800646009 /* Keyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+		D19BAAB52472BD9F00646009 /* lol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lol.jpg; path = ../../../../../../../lol.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 		D19BAA85246FD10800646009 /* CustomKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				D19BAAB52472BD9F00646009 /* lol.jpg */,
 				D19BAA86246FD10800646009 /* AppDelegate.h */,
 				D19BAA87246FD10800646009 /* AppDelegate.m */,
 				D19BAA89246FD10800646009 /* SceneDelegate.h */,
@@ -213,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19BAAB62472BD9F00646009 /* lol.jpg in Resources */,
 				D19BAA96246FD10F00646009 /* LaunchScreen.storyboard in Resources */,
 				D19BAA93246FD10F00646009 /* Assets.xcassets in Resources */,
 				D19BAA91246FD10800646009 /* Main.storyboard in Resources */,
@@ -223,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19BAAB72472BDA000646009 /* lol.jpg in Resources */,
 				D19BAAB42470DF3800646009 /* Keyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

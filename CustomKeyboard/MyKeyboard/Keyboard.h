@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Keyboard : UIView
 
+//Dark mode button
+@property (weak, nonatomic) IBOutlet UISwitch *outletSwitch;
+
 @property (weak, nonatomic) IBOutlet UIButton *deleteKey;
 
 @property (weak, nonatomic) IBOutlet UIButton *globeKey;
@@ -21,6 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIButton *returnKey;
 
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *keysArray;
+
+@property (weak, nonatomic) IBOutlet UIButton *qKey;
 
 
 @end

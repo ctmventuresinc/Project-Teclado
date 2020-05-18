@@ -56,6 +56,8 @@
     
     [self.keyboard.spaceKey addTarget:self action:@selector(pressSpaceKey) forControlEvents:UIControlEventTouchUpInside];
     
+    [self.keyboard.qKey addTarget:self action:@selector(pressqKey) forControlEvents:UIControlEventTouchUpInside];
+    
     [self.keyboard.returnKey addTarget:self action:@selector(pressReturnKey) forControlEvents:UIControlEventTouchUpInside];
     //Change to next keyboard
     [self.keyboard.globeKey addTarget:self action:@selector(advanceToNextInputMode) forControlEvents:UIControlEventTouchUpInside];
@@ -78,6 +80,10 @@
 
 -(void)pressKey:(UIButton *)key{
     [self.textDocumentProxy insertText:[key currentTitle]];
+}
+
+-(void)pressqKey{
+    [self.textDocumentProxy insertText:@"q"];
 }
 
 @end
