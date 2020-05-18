@@ -10,9 +10,13 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Keyboard">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="216"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="keyboard" translatesAutoresizingMaskIntoConstraints="NO" id="ZTp-Cc-yPV">
+                    <rect key="frame" x="-14" y="-15" width="404" height="248"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOl-2C-BWd">
                     <rect key="frame" x="27" y="24" width="54" height="42"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -86,15 +90,10 @@
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9in-dT-9Vc">
-                    <rect key="frame" x="281" y="14" width="74" height="91"/>
+                    <rect key="frame" x="272" y="44" width="90" height="113"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="1" green="0.52607073609999999" blue="0.65201407929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal" image="lol.jpg"/>
+                    <state key="normal" backgroundImage="key"/>
                 </button>
-                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p7T-AX-5bC">
-                    <rect key="frame" x="308" y="147" width="49" height="31"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </switch>
             </subviews>
             <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -102,8 +101,7 @@
             <connections>
                 <outlet property="deleteKey" destination="ZN5-Qo-z17" id="q9m-0i-wq6"/>
                 <outlet property="globeKey" destination="nP1-Og-9aX" id="cYr-cP-YzQ"/>
-                <outlet property="outletSwitch" destination="p7T-AX-5bC" id="l6B-Cs-QAz"/>
-                <outlet property="qKey" destination="9in-dT-9Vc" id="Ouq-h4-iBQ"/>
+                <outlet property="qKey" destination="9in-dT-9Vc" id="UKT-of-dme"/>
                 <outlet property="returnKey" destination="MdF-Db-6RG" id="yKB-Zr-FA0"/>
                 <outlet property="spaceKey" destination="VDn-j9-TTN" id="2Mf-Oc-fwO"/>
                 <outletCollection property="keysArray" destination="lOl-2C-BWd" id="2NE-00-QH1"/>
@@ -112,10 +110,11 @@
                 <outletCollection property="keysArray" destination="rxn-W7-vxi" id="9y3-3K-rHB"/>
                 <outletCollection property="keysArray" destination="63G-4w-s3c" id="ZEF-BY-U3x"/>
             </connections>
-            <point key="canvasLocation" x="137.68115942028987" y="91.741071428571431"/>
+            <point key="canvasLocation" x="174.63768115942031" y="100.44642857142857"/>
         </view>
     </objects>
     <resources>
-        <image name="lol.jpg" width="640" height="640"/>
+        <image name="key" width="175" height="205"/>
+        <image name="keyboard" width="373" height="216"/>
     </resources>
 </document>

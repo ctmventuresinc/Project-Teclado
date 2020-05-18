@@ -20,6 +20,8 @@
 		D19BAAB42470DF3800646009 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19BAAB32470DF3800646009 /* Keyboard.xib */; };
 		D19BAAB62472BD9F00646009 /* lol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19BAAB52472BD9F00646009 /* lol.jpg */; };
 		D19BAAB72472BDA000646009 /* lol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19BAAB52472BD9F00646009 /* lol.jpg */; };
+		D19BAAB92472C52100646009 /* keys.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19BAAB82472C52100646009 /* keys.xcassets */; };
+		D19BAABA2472C52100646009 /* keys.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19BAAB82472C52100646009 /* keys.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,7 @@
 		D19BAAB12470DF0700646009 /* Keyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Keyboard.m; sourceTree = "<group>"; };
 		D19BAAB32470DF3800646009 /* Keyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
 		D19BAAB52472BD9F00646009 /* lol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lol.jpg; path = ../../../../../../../lol.jpg; sourceTree = "<group>"; };
+		D19BAAB82472C52100646009 /* keys.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = keys.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,7 @@
 				D19BAA94246FD10F00646009 /* LaunchScreen.storyboard */,
 				D19BAA97246FD10F00646009 /* Info.plist */,
 				D19BAA98246FD10F00646009 /* main.m */,
+				D19BAAB82472C52100646009 /* keys.xcassets */,
 			);
 			path = CustomKeyboard;
 			sourceTree = "<group>";
@@ -221,6 +225,7 @@
 				D19BAA96246FD10F00646009 /* LaunchScreen.storyboard in Resources */,
 				D19BAA93246FD10F00646009 /* Assets.xcassets in Resources */,
 				D19BAA91246FD10800646009 /* Main.storyboard in Resources */,
+				D19BAAB92472C52100646009 /* keys.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D19BAAB72472BDA000646009 /* lol.jpg in Resources */,
+				D19BAABA2472C52100646009 /* keys.xcassets in Resources */,
 				D19BAAB42470DF3800646009 /* Keyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
