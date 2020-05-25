@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 //Delete key
 @property (weak, nonatomic) IBOutlet UIButton *deleteKey;
 
+@property (weak, nonatomic) IBOutlet UIButton *shiftKey;
+
 @property (weak, nonatomic) IBOutlet UIButton *globeKey;
 
 @property (weak, nonatomic) IBOutlet UIButton *spaceKey;

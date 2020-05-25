@@ -48,11 +48,14 @@
     } else {
         textColor = [UIColor blackColor];
     }
+    
 }
 
 #pragma mark Keyboards
 - (void)addGesturesToKeyboard{
     [self.keyboard.deleteKey addTarget:self action:@selector(pressDeleteKey) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.keyboard.shiftKey addTarget:self action:@selector(pressShiftKey) forControlEvents:UIControlEventTouchUpInside];
     
     [self.keyboard.spaceKey addTarget:self action:@selector(pressSpaceKey) forControlEvents:UIControlEventTouchUpInside];
     
@@ -70,6 +73,10 @@
     [self.textDocumentProxy deleteBackward];
 }
 
+-(void)pressShiftKey{
+    [self.textDocumentProxy autocapitalizationType];
+}
+
 -(void)pressSpaceKey{
     [self.textDocumentProxy insertText:@" "];
 }
@@ -85,5 +92,7 @@
 -(void)pressqKey{
     [self.textDocumentProxy insertText:@"q"];
 }
+
+
 
 @end

@@ -87,9 +87,9 @@
                     <state key="normal" backgroundImage="key"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FuL-Bt-nye">
-                    <rect key="frame" x="41" y="55" width="46" height="30"/>
+                    <rect key="frame" x="48" y="55" width="32" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Button"/>
+                    <state key="normal" title="Shift"/>
                 </button>
             </subviews>
             <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -100,13 +100,14 @@
                 <outlet property="globeKey" destination="nP1-Og-9aX" id="cYr-cP-YzQ"/>
                 <outlet property="qKey" destination="9in-dT-9Vc" id="UKT-of-dme"/>
                 <outlet property="returnKey" destination="MdF-Db-6RG" id="yKB-Zr-FA0"/>
+                <outlet property="shiftKey" destination="FuL-Bt-nye" id="wvN-Gv-Lv7"/>
                 <outlet property="spaceKey" destination="VDn-j9-TTN" id="2Mf-Oc-fwO"/>
                 <outletCollection property="keysArray" destination="8ue-SH-Atk" id="Bdp-T8-r2s"/>
                 <outletCollection property="keysArray" destination="Rbe-8f-h2I" id="Q8O-2v-zRd"/>
                 <outletCollection property="keysArray" destination="rxn-W7-vxi" id="9y3-3K-rHB"/>
                 <outletCollection property="keysArray" destination="63G-4w-s3c" id="ZEF-BY-U3x"/>
             </connections>
-            <point key="canvasLocation" x="-39" y="115"/>
+            <point key="canvasLocation" x="-39.130434782608695" y="114.50892857142857"/>
         </view>
     </objects>
     <resources>
